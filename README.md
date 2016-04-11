@@ -1,1 +1,1 @@
-测试Readme
+这是一个将JSON转换为Objective-c类的工具
