@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FC54D99422E9E1A154F8D18DACBD4D959793F9BE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FC54D99422E9E1A154F8D18DACBD4D959793F9BE" : 0,
+    "AF66E8D3E867EFE818DA7C98E4F0F9170F06AEA7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6E08AF01-8E81-4ABF-9937-8DBC8E0CBA04",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FC54D99422E9E1A154F8D18DACBD4D959793F9BE" : "%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9%202\/",
+    "AF66E8D3E867EFE818DA7C98E4F0F9170F06AEA7" : "JSONCreatorPlus"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JSONCreatorPlus",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JSONCreatorPlus.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ChangmingLi\/jsoncreatorplus.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AF66E8D3E867EFE818DA7C98E4F0F9170F06AEA7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/andylee1988\/JSONCreatorPlus.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FC54D99422E9E1A154F8D18DACBD4D959793F9BE"
+    }
+  ]
+}

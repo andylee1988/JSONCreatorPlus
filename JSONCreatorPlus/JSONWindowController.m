@@ -224,7 +224,7 @@
                     
                 } else {
                     [config appendFormat:@"self.%@%@ = [NSMutableArray array];\n",kPrefixMutableArray,[Utils uppercaseFirstChar:strKey]];
-                    [config appendFormat:@"if ([[aDicJson objectForKey:@\"%@\"] isKindOfClass:[NSArray class]]) {\nfor(NSString *item in [aDicJson objectForKey:@\"%@\"])\n",strKey,strKey];
+                    [config appendFormat:@"if ([[aDicJson objectForKey:@\"%@\"] isKindOfClass:[NSArray class]]) {\nfor(id item in [aDicJson objectForKey:@\"%@\"])\n",strKey,strKey];
                     [config appendString:@"{\n"];
                     
                     
