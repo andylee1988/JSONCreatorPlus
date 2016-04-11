@@ -56,12 +56,17 @@
         NSData *data = [NSURLConnection sendSynchronousRequest:request
                                              returningResponse:nil
                                                          error:nil];
-        
-        NSDictionary *jsonDic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
-        if(jsonDic) {
-            dispatch_async(dispatch_get_main_queue(),^(void){
-                jsonContentTextView.string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-            });
+        if (data) {
+            NSDictionary *jsonDic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+            if(jsonDic) {
+                dispatch_async(dispatch_get_main_queue(),^(void){
+                    jsonContentTextView.string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+                });
+            } else {
+                jsonContentTextView.string = @"无效的JSON数据";
+            }
+        } else {
+            jsonContentTextView.string = @"无效的数据";
         }
     });
 }
